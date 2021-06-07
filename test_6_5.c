@@ -2,7 +2,7 @@
 int main()
 {
 //	int number, money, sum;
-//	char confirm;好像没有实际意义
+//	char confirm;//好像没有实际意义
 //	FILE *fp;
 //	fp = fopen("hongbao.txt","w+");
 //	printf("\n\t\t\t请输入您的红包个数:\t\t");
