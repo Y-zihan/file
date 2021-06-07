@@ -2,29 +2,29 @@
 int main()
 {
 //	int number, money, sum;
-//	char confirm;
+//	char confirm;å¥½åƒæ²¡æœ‰å®é™…æ„ä¹‰
 //	FILE *fp;
 //	fp = fopen("hongbao.txt","w+");
-//	printf("\n\t\t\tÇëÊäÈëÄúµÄºì°ü¸öÊı:\t\t");
+//	printf("\n\t\t\tè¯·è¾“å…¥æ‚¨çš„çº¢åŒ…ä¸ªæ•°:\t\t");
 //	scanf("%d",&number);
-//	printf("\n\t\t\tÇëÊäÈëÄúµ¥¸öµÄºì°ü½ğ¶î:\t\t");
+//	printf("\n\t\t\tè¯·è¾“å…¥æ‚¨å•ä¸ªçš„çº¢åŒ…é‡‘é¢:\t\t");
 //	scanf("%d", &money);
 //	getchar();
-//	printf("\n\n\t\t\tÈ·ÈÏ£¨Y£©\t\tÈ¡Ïû£¨C£©\n");
+//	printf("\n\n\t\t\tç¡®è®¤ï¼ˆYï¼‰\t\tå–æ¶ˆï¼ˆCï¼‰\n");
 //	scanf("%c", &confirm);
-//	printf("        Äú³öÁË%d¸öºì°ü£¬µ¥¸öºì°üµÄ½ğ¶îÎª%d£¨Ôª£©Ç®\n", number, money);
-//	fprintf(fp,"Äú³öÁË%d¸öºì°ü£¬µ¥¸öºì°ü½ğ¶î%d£¨Ôª£©Ç®\n", number, money);
+//	printf("        æ‚¨å‡ºäº†%dä¸ªçº¢åŒ…ï¼Œå•ä¸ªçº¢åŒ…çš„é‡‘é¢ä¸º%dï¼ˆå…ƒï¼‰é’±\n", number, money);
+//	fprintf(fp,"æ‚¨å‡ºäº†%dä¸ªçº¢åŒ…ï¼Œå•ä¸ªçº¢åŒ…é‡‘é¢%dï¼ˆå…ƒï¼‰é’±\n", number, money);
 //	fclose(fp);
 //	return 0;
 char name[10],date[10];
 FILE *yx;
 yx= fopen("youxi.txt","a");
-printf("\n\t\t\tÇëÊäÈëÄúµÄÃû×Ö:\t\t");
+printf("\n\t\t\tè¯·è¾“å…¥æ‚¨çš„åå­—:\t\t");
 gets(name);
-printf("\n\t\t\tÇëÊäÈëÈÕÆÚ£º\t\t");
+printf("\n\t\t\tè¯·è¾“å…¥æ—¥æœŸï¼š\t\t");
 gets(date);
-fprintf(yx,"ÄúµÄÃû×ÖÎª%s,½ñÌìµÄÈÕÆÚÎª%s\n",name,date);
-printf("\n\t\t\tÄúµÄÃû×ÖÎª%s,½ñÌìµÄÈÕÆÚÎª%s\n",name,date);
+fprintf(yx,"æ‚¨çš„åå­—ä¸º%s,ä»Šå¤©çš„æ—¥æœŸä¸º%s\n",name,date);
+printf("\n\t\t\tæ‚¨çš„åå­—ä¸º%s,ä»Šå¤©çš„æ—¥æœŸä¸º%s\n",name,date);
 fclose(yx);
 //system("pause");
 return 0;
